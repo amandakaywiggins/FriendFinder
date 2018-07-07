@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <title>FriendFinder</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!--filler-->
+                </div>
+                <div class="col-md-6">
+                    <h1>Questions</h1>
+                </div>
+                <div class="col-md-3">
+                    <!--filler-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <!--filler-->
+                </div>
+                <div class="col-md-8">
+                    <h2>About You</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name (Required)</label>
+                            <input type="name" class="form-control" id="name-input" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Link to Photo Image (Required)</label>
+                            <input type="image" class="form-control" id="image-input" placeholder="http://">
+                        </div>
+                        <div class="form-group">
+                            <h3>Question One</h3>
+                            <h4>How would you describe your attraction?</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="0">Straight</option>
+                                <option value="1">Bi-curious</option>
+                                <option value="2">Bisexual</option>
+                                <option value="3">Pansexual</option>
+                                <option value="4">Gay</option>
+                                <option value="5">Lesbian</option>
+                                <option value="6">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Two</h3>
+                            <h4>I just really love reggae.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Three</h3>
+                            <h4>Pineapple belongs on pizza.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Four</h3>
+                            <h4>Reality tv is fun to watch.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Five</h3>
+                            <h4>Toilet paper should be over not under.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Six</h3>
+                            <h4>Markers are better then crayons.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Seven</h3>
+                            <h4>Marginalized groups like women, people of color, and the LGBT+ community should have protected equal rights.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Eight</h3>
+                            <h4>The arts should be accessible.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Nine</h3>
+                            <h4>Cilantro takes like soap.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <h3>Question Ten</h3>
+                            <h4>Avocados really aren't that great.</h4>
+                            <select class="chosen-select" id="q1" style="display: none;">
+                                <option value=""></option>
+                                <option value="1">1 (strongly disagree)</option>
+                                <option value="2">2 (disagree)</option>
+                                <option value="3">3 (neutral)</option>
+                                <option value="4">4 (agree)</option>
+                                <option value="5">5 (strongly agree)</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2">
+                    <!--filler-->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
